@@ -9,7 +9,7 @@ const Users = () => {
     []
   );
 
-  useEffect(() => handleFetchUsers, [handleFetchUsers]);
+  useEffect(() => handleFetchUsers(), []);
 
   return (
     <>
